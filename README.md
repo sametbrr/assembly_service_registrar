@@ -27,6 +27,30 @@
 
 ## 🔧 Installation | Kurulum
 
+### Package Installation | Paket Kurulumu
+
+**EN:** Add the package to your project using one of the following methods:
+
+**TR:** Aşağıdaki yöntemlerden birini kullanarak paketi projenize ekleyin:
+
+#### NuGet Package Manager
+
+```bash
+dotnet add package AssemblyServiceRegistrar
+```
+
+#### Package Manager Console (Visual Studio)
+
+```powershell
+Install-Package AssemblyServiceRegistrar
+```
+
+#### PackageReference (in .csproj file)
+
+```xml
+<PackageReference Include="AssemblyServiceRegistrar" Version="1.0.0" />
+```
+
 ### Git Clone
 
 ```bash
